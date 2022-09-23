@@ -31,7 +31,7 @@ const Header = () => {
                         }}
                         className="mb-6"
                     >
-                        Club for
+                        Club with
                     </motion.div>
                     <motion.div
                         initial={{ y: "100%", opacity: 0 }}
