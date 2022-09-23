@@ -22,6 +22,7 @@ const HFooter = () => {
                                 href="https://www.linkedin.com/in/mayukh-bhowmick-44533a201/"
                                 target="_blank"
                                 rel="noreferrer"
+                                id="dev-linkedin-profile"
                             >
                                 <div className="text-white">
                                     Mayukh Bhowmick
@@ -41,6 +42,7 @@ const HFooter = () => {
                                     <li
                                         onClick={() => navigate("/projects")}
                                         className="text-gray-400 hover:text-white cursor-pointer"
+                                        id="project-link"
                                     >
                                         Projects
                                     </li>

@@ -15,7 +15,7 @@ const ExpandedProfile = (props) => {
     return (
         <ProfileCard
             // styleCard={`${classes.profile} z-50 text-base absolute w-[70%] left-[50%] top-[50%] md:w-[500px] text-white bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700`}
-            styleCard={`z-50 text-base absolute w-[90%] sm:w-[70%] left-[50%] top-[50%] md:w-[500px] text-white bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700`}
+            styleCard={`expanded-profile z-50 text-base absolute w-[90%] sm:w-[70%] left-[50%] top-[50%] md:w-[500px] text-white bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700`}
             pos={{ transform: "translate(-50%, -50%)" }}
         >
             <div className="p-4 flex flex-col text-sm sm:text-base">

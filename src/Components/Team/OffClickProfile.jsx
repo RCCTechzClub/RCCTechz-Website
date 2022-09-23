@@ -44,16 +44,16 @@ const OffClickProfile = (props) => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
-    // const mouseEventHandler = () => {
-    //     setDisplayBtn((prevCond) => !prevCond);
-    // };
+    const mouseEventHandler = () => {
+        setDisplayBtn((prevCond) => !prevCond);
+    };
 
     console.log("OffClickProfile Comp");
     return (
         <Fragment>
             <ProfileCard
                 Card
-                // mouseEventHandler={mouseEventHandler}
+                mouseEventHandler={mouseEventHandler}
                 hoverAnim={displayBtn}
                 // styleCard="z-10 relative cursor-default transition-all duration-200 w-[90%] sm:w-[320px] h-[360px] bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
                 styleCard="z-10 relative cursor-default transition-all duration-200 w-[90%] sm:w-[320px] h-[360px] rounded-lg shadow-2xl bg-gray-800"
@@ -72,7 +72,7 @@ const OffClickProfile = (props) => {
                             alt="team profile"
                         />
                     </div>
-                    <h5 className="mb-4 text-xl font-medium text-gray-900 dark:text-white">
+                    <h5 className="mb-4 text-xl font-medium text-gray-900 dark:text-white" id="member-name">
                         {coreMember.name}
                     </h5>
                     {/* <div className="mb-5 text-base text-gray-500 dark:text-gray-400">
@@ -124,7 +124,7 @@ const OffClickProfile = (props) => {
                                 initial={{ y: -50 }}
                                 animate={{ y: 1 }}
                                 transition={{ duration: 0.2 }}
-                                // exit={{ y: -50, opacity: 0 }}
+                                exit={{ y: -50, opacity: 0 }}
                             >
                                 View Profile
                             </motion.button>
