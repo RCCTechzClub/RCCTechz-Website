@@ -69,7 +69,7 @@ const Main = () => {
                             <img src={cheked} alt="/" className=" h-30" />
                         </div>
                         <p className="font-patua font-bold w-[225px] pt-12 flex flex-col items-center justify-center space-y-2 text-md text-center">
-                            <p>Present your work with confidence</p> <p>contribute and make an impact.</p> <p> <button class="rounded-full px-4 py-2 mt-5 font-semibold hover:scale-110 duration-100 text-slate-500 bg-[#ffe4e6]">Register closed</button></p>
+                            <p>Present your work with confidence</p> <p>contribute and make an impact.</p> <p> <button class="rounded-full px-4 py-2 mt-5 font-semibold hover:scale-110 duration-100 text-slate-500 bg-[#ffe4e6]">Registration closed</button></p>
                         </p>
                     </motion.div>
                     <motion.div
