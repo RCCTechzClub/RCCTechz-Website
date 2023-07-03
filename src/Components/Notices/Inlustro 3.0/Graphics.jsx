@@ -40,7 +40,7 @@ const Graphics = () => {
             >
                 <p className=" text-4xl">Graphics & poster</p>
                 <p className=" text-lg">Artfully communicating ideas and capturing attention through visually engaging designs.</p>
-                <p className=" text-lg"> <button class="rounded-full px-3 py-1 mt-2 bg-[#AEADDC] font-semibold hover:scale-110 duration-100 text-black"><a href="https://forms.gle/Dnxi6Csr6USTwtvP6">Submit Now</a></button></p>
+                <p className=" text-lg"> <button class="rounded-full px-3 py-1 mt-2 bg-[#AEADDC] font-semibold hover:scale-110 duration-100 text-slate-600">Submission Closed</button></p>
             </motion.div>
         </div>
     )

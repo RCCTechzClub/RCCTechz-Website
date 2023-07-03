@@ -32,7 +32,7 @@ const Photography = () => {
             >
                 <p className=" text-4xl">Photography</p>
                 <p className=" text-lg">Capturing moments and stories through the lens, preserving memories and evoking emotions.</p>
-                <p className=" text-lg"> <button class="rounded-full px-3 py-1 mt-2 bg-[#E48C8C] font-semibold hover:scale-110 duration-100 text-black"><a href="https://forms.gle/5Urvx9vg7jJQnSCF7">Submit Now</a></button></p>
+                <p className=" text-lg"> <button class="rounded-full px-3 py-1 mt-2 bg-[#E48C8C] font-semibold hover:scale-110 duration-100 text-slate-300">Submission Closed</button></p>
             </motion.div>
             <motion.div className="h-[225px] z-[10] w-[225px] flex flex-col mr-5 justify-center items-center rounded-full hover:scale-110 duration-100 bg-[#E48C8C]"
                 initial={{ opacity: 0, x: "+20%" }}

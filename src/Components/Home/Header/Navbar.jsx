@@ -68,7 +68,7 @@ const Navbar = (props) => {
                             className={`rounded-br-md rounded-bl-md h-full pt-3 ${showMenubar ? "py-4 text" : "mx-6"
                                 } px-8 cursor-pointer hover:text-black hover:bg-slate-100`}
                         >
-                            Notice
+                            Announcements
                         </li>
                     </Link>
                 </motion.ul>

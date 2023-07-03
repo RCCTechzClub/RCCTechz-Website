@@ -39,7 +39,7 @@ const Illustration = () => {
             >
                 <p className=" text-4xl">Illustration</p>
                 <p className=" text-lg">Bringing imagination to life through visual storytelling and creative expression.</p>
-                <p className=" text-lg"> <button class="rounded-full px-3 py-1 mt-2 bg-[#7CDD9D] font-semibold hover:scale-110 duration-100 text-black"><a href=" https://forms.gle/CXfftX1WU1T1YjC1A">Submit Now</a></button></p>
+                <p className=" text-lg"> <button class="rounded-full px-3 py-1 mt-2 bg-[#7CDD9D] font-semibold hover:scale-110 duration-100 text-slate-500">Submission Closed</button></p>
             </motion.div>
         </div>
     )

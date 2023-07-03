@@ -31,7 +31,7 @@ const Animation = () => {
             >
                 <p className=" text-4xl">Video and Animation</p>
                 <p className=" text-lg">Crafting compelling narratives through the art of moving images, sound, and editing.</p>
-                <p className=" text-lg"> <button class="rounded-full px-3 py-1 mt-2 bg-[#DDA6E5] font-semibold hover:scale-110 duration-100 text-black"><a href=" https://forms.gle/UHPdQ5RCbkbju3eM6">Submit Now</a></button></p>
+                <p className=" text-lg"> <button class="rounded-full px-3 py-1 mt-2 bg-[#DDA6E5] font-semibold hover:scale-110 duration-100 text-slate-600">Submission Closed</button></p>
             </motion.div>
             <motion.div className="h-[225px] w-[225px] z-[10] mr-5 flex flex-col justify-center hover:scale-110 duration-100 items-center rounded-full bg-[#DDA6E5]"
                 initial={{ opacity: 0, x: "+20%" }}
