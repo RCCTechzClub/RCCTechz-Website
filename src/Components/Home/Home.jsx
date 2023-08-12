@@ -8,6 +8,7 @@ import Stats from "./Stats";
 import ClubFeatures from "./ClubFeatures";
 import Magazine from "./Magazine";
 import SocialMedia from "./Header/SocialMedia";
+import ContactUs from "./ContactUs";
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <Magazine />
             <Stats />
             <Domains />
+            <ContactUs />
             <HFooter />
         </div>
     );
