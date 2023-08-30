@@ -43,21 +43,21 @@ const Members = (props) => {
 
     return (
         <Fragment>
-            <TeamWrapper 
+            <TeamWrapper
                 imgList={imgList}
                 heading='Board Members'
                 teamMemberDetails={coreTeamDetails}
                 displayModal={props.displayModal}
             />
 
-            <TeamWrapper 
+            <TeamWrapper
                 imgList={dMimgList}
                 heading='Domain Managers'
                 teamMemberDetails={domainManagerDetails}
                 displayModal={props.displayModal}
             />
 
-            <TeamWrapper 
+            {/* <TeamWrapper 
                 imgList={gDimgList}
                 heading='Graphics & Content Team'
                 teamMemberDetails={graphicsDesignersDetails}
@@ -76,8 +76,8 @@ const Members = (props) => {
                 heading='Magazine'
                 teamMemberDetails={magazineTeam}
                 displayModal={props.displayModal}
-            />
-            
+            /> */}
+
             <div className="sm:px-10 mb-20">
                 <h1 className="text-center cursor-pointer hover:text-emerald-400 hover:decoration-white duration-200 mb-9 text-3xl sm:text-5xl underline underline-offset-8 decoration-emerald-400">
                     <a
