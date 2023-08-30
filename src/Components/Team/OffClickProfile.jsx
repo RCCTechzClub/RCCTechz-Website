@@ -74,7 +74,7 @@ const OffClickProfile = (props) => {
                             alt="team profile"
                         />
                     </div>
-                    <h5 className="mb-4 text-xl font-medium text-gray-900 dark:text-white">
+                    <h5 className="mb-4 text-xl font-medium text-white">
                         {member.name}
                     </h5>
                     <div className="mb-7 text-base text-gray-500 dark:text-gray-400">

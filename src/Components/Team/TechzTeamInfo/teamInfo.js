@@ -426,9 +426,9 @@ export const teamData = {
         socialMedia: ['https://github.com/Debopom-Banerjee', 'https://linkedin.com/in/debopom-banerjee-a35123215/', '', '', '']
     },
     {
-        name: "AI/ML",
+        name: "Soumyadeep Chakraborty",
         profession: "",
-        clubRole: "Soumyadeep Chakraborty",
+        clubRole: "AI/ML",
         dept: "",
         year: 3,
         skills: [],
