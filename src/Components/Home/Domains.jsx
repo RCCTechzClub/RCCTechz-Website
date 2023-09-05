@@ -8,28 +8,27 @@ const Domains = () => {
     const [domainDetails, setNewDomainDetails] = useState([
         {
             show: false,
-            manager: "Soham Saha Roy",
+            manager: "Manish Saha, Shuvangi De",
             domainName: "Web Development",
         },
         {
             show: false,
-            manager: "Soham Banerjee",
-            domainName: "Cyber Security",
+            manager: "Debopom Banerjee",
+            domainName: "Blockchain",
         },
         {
             show: false,
-            manager: "Nishant Thakur",
+            manager: "Rajorshi Mandal",
             domainName: "Competitive Programming",
         },
         {
             show: false,
-            manager: "Rishav Mandal",
+            manager: "Chayandev Bera",
             domainName: "App Development",
         },
         {
             show: false,
-            manager: "Triasis Ghosh",
-            // domainName: "Artificial Intelligence & Machine Learning",
+            manager: "Soumyadeep Chakraborty",
             domainName: "AI/ML",
         },
     ]);

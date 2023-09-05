@@ -1,9 +1,7 @@
 import React from "react";
-// import ai from "../../SVGs/artificial_intelligence.svg";
-// import webdev from "../../SVGs/web_development.svg";
 import webdev from "../../SVGs/undraw_building_websites_i78t.svg";
 import ai from "../../SVGs/undraw_firmware_re_fgdy.svg";
-import cyberSecurity from "../../SVGs/Cyber_Security.svg";
+import blockchain from "../../SVGs/blockchain.svg";
 import cp from "../../SVGs/programming.svg";
 import mobile from "../../SVGs/appdev.svg";
 import { motion } from "framer-motion";
@@ -17,20 +15,18 @@ const DomainCard = (props) => {
 
     var svg = "";
     if (domain.domainName === "Web Development") svg = webdev;
-    if (domain.domainName === "Cyber Security") svg = cyberSecurity;
+    if (domain.domainName === "Blockchain") svg = blockchain;
     if (domain.domainName === "Competitive Programming") svg = cp;
-    // if (domain.domainName === "Artificial Intelligence & Machine Learning") svg = ai;
     if (domain.domainName === "AI/ML") svg = ai;
     if (domain.domainName === "App Development") svg = mobile;
 
     return (
         <motion.div
             onClick={displayContent}
-            className={`cursor-pointer pb-0 px-5 pt-3 md:pb-7 flex items-center flex-col ${
-                domain.show === false
-                    ? "justify-evenly"
-                    : " justify-center text-black space-y-9"
-            } w-80 h-72 bg-slate-400 shadow-lg rounded-2xl`}
+            className={`cursor-pointer pb-0 px-5 pt-3 md:pb-7 flex items-center flex-col ${domain.show === false
+                ? "justify-evenly"
+                : " justify-center text-black space-y-9"
+                } w-80 h-72 bg-slate-400 shadow-lg rounded-2xl`}
             // w-full sm:w-[57%]  md:w-[60%] lg:w-[55%] xl:w-[50%]
             initial={{ opacity: 0, scale: 0 }}
             animate={
